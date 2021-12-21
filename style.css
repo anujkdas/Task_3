@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 120vh;
+    background-image:
+       url(../Fundraiser-image.png);
+    background-position: top;
+    background-size: cover;
+    /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100% ); */
+    position: relative;
+    
+
+}
+
+.pay {
+    margin: 0;
+    position: absolute;
+    top: 16%;
+    left: 72%;
+}
+
+.text{
+    color: rgb(226, 86, 31);
+    font-size: 25px;
+    font-weight: bold;
+}
